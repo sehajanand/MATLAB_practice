@@ -1,9 +1,9 @@
-fibo=[1,1]
-n=10
-for i=3:n
-    fibo(i)=fibo(i-1)+fibo(i-2);
-end
-fibo
+% fibo=[1,1]
+% n=10
+% for i=3:n
+%     fibo(i)=fibo(i-1)+fibo(i-2);
+% end
+% fibo
 % F=[1,2,3;4,5,6;7,8,9]
 % a=[1,2,3]
 % size(F)

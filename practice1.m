@@ -1,4 +1,4 @@
-% print first n numbers of fibonacci series
+% Print first n numbers of fibonacci series
 fibo=[1,1];
 n=10;
 for i=3:n

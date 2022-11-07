@@ -1,4 +1,4 @@
-% print fibonacci series until last digit is less than or equal to n
+% Print fibonacci series until last digit is less than or equal to n
 fibo=[1,1];
 n=200;
 i=3;
