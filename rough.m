@@ -1,3 +1,23 @@
+% x=[0:0.1:6]
+% a=[1,2,3];
+% a=[a,1]
+% fibo=[1,1];
+% i=3;
+% while fibo(end)<=200
+%     fibo(i)=fibo(i-1)+fibo(i-2);
+%     i=i+1;
+% end
+% fibo(end)=[];
+% fibo
+% fibo=[1,1];
+% n=5;
+% for i=3:5
+%     fibo(i)=fibo(i-1)+fibo(i-2);
+% end
+% fibo
+% a=[1,2,3;4,5,6];
+% a(3,1)=78;
+% a
 % fibo=[1,1]
 % n=10
 % for i=3:n
