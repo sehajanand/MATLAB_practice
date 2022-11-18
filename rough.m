@@ -1,3 +1,88 @@
+a=[1,2,3];
+a(1)
+% n=5;
+% x=0.1;
+% trueVal=exp(0.1);
+% currentTerm=1;
+% expVal=1;
+% for i=1:n
+%     currentTerm=currentTerm*x/i;
+%     expVal=expVal+currentTerm;
+% end
+% error=abs(trueVal-expVal);
+% disp(error);
+% n=5;
+% x=0.1;
+% trueVal=exp(0.1);
+% currentTerm=1;
+% expVal=1;
+% for i=1:n
+%     currentTerm=currentTerm*x/i;
+%     expVal=expVal+currentTerm;
+% end
+% error=abs(trueVal-expVal)
+% x=[0:0.1:6];
+% plot(x,sin(x),'--r',x,cos(x),'--b');
+% legend('sinX','cosX');
+% vo=20;
+% g=9.8;
+% t=0;
+% y=0;
+% location=[];
+% time=[];
+% while (y>=0)
+%     location(end+1)=y;
+%     y=vo*t-g*t^2/2;
+%     t=t+0.1;
+%     time(end+1)=t;
+% end
+% plot(time,location);
+% xlabel('time(s)');
+% ylabel('location(m)');
+% v0=20;
+% g=9.8;
+% t=0;
+% y=0;
+% while (y>=0)
+%      disp(['At time t= ',num2str(t),'location is ',num2str(y)]);
+%     t=t+0.1;
+%     y=v0*t-g*t^2/2;
+% end
+% function result=rough(n,x)
+% c=[1,1./[1:n]];
+% var=x.^[0:n];
+% result=sum(c.*var);
+% end
+% fibo=[1,1];
+% i=3;
+% while (fibo(end)<=200)
+%     fibo(i)=fibo(i-1)+fibo(i-2);
+%     i=i+1;
+% end
+% fibo(end)=[];
+% disp(fibo);
+% fibo=[1,1];
+% n=10;
+% for i=3:n
+%     fibo(i)=fibo(i-1)+fibo(i-2);
+% end
+% disp(fibo);
+% n=10;
+% for i=1:n
+%     disp(i)
+% end
+% a=[1,2,3];
+% a=2.*a;
+% a
+% rand(3,2)
+% a=[1,2,3]
+% b=[4;5;6]
+% c=eye(3);
+% d=[a;c]
+% e=[b,c]
+% F=[11,12,13;14,15,16;17,18,19]
+% F(2,1)
+% F(2,2:3)
 % x=[0:0.1:6]
 % a=[1,2,3];
 % a=[a,1]
